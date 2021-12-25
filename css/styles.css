@@ -1,0 +1,231 @@
+/*apricots*/
+@import url('https://fonts.googleapis.com/css?family=Belleza');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body {
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background-color: rgb(217,217,217) !important;
+  font-family: sans-serif;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+h1#main-header {
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+	font: 60px Belleza;
+  margin: 0;
+  text-decoration:  none;
+  color: black;
+}
+h2#main-header-2 {
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+	font: 15px Belleza;
+  margin: 0;
+  color:black;
+}
+
+h1.page-header {
+  font-weight: bold;
+  text-align: center;
+  font: 50px Belleza;
+  margin: 0;
+  font-weight: bold;
+
+}
+
+img {
+  background-color: rgb(217,217,217);
+  padding:0;
+  border: 0;
+  margin: 0;
+}
+
+.row {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-custom {
+  background-color: black !important;
+}
+
+.navbar-custom a {
+  color: white !important;
+}
+
+div.container-fluid {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: 0;
+}
+
+p.carousel-slide-desc {
+  margin: 0px 0px 50px 0px;
+}
+
+.introduction {
+  background-color: white;
+  padding: 10px 10px 10px 10px;
+}
+
+.social-buttons {
+  background: black;
+  font-size: 0px;
+}
+.social-buttons ul {
+  padding: 15px 0px 15px 0px;
+  margin: 0;
+}
+
+.social-buttons ul li {
+  display: inline;
+  padding: 10px;
+  text-align: center;
+}
+
+.social-buttons ul li img {
+  background-color: black;
+}
+
+.important-links {
+  background: black;
+  height: 80px;
+
+}
+
+.important-links ul {
+  padding: 10px 0px 10px 0px;
+  list-style-type: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* .important-links ul li {
+  text-align: left;
+} */
+
+.important-links ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.mailing-list-subscription {
+  background: black;
+  color: white;
+  height: 80px;
+  padding: 10px 0px 10px 0px;
+}
+
+.btn {
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 10px;
+  background: black;
+  padding: 6px 6px 6px 6px;
+  border: solid #ffffff 1px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #ffffff;
+  text-decoration: none;
+}
+
+.logo-link-home {
+  background: black;
+  color: white;
+  height: 80px;
+  padding: 10px 0px 10px 0px;
+}
+.logo-link-home center p {
+  margin: 0;
+  color: white;
+}
+.logo-link-home center img {
+  background-color: black;
+  padding-top: 10px;
+}
+
+.facebook-icon,
+.instagram-icon,
+.youtube-icon,
+.twitter-icon,
+.tiktok-icon{
+	width: 30px;
+	height: 30px;
+	opacity: .6;
+	filter: alpha(opacity=60);
+}
+
+.facebook-icon:hover,
+.instagram-icon:hover,
+.youtube-icon:hover,
+.twitter-icon:hover,
+.tiktok-icon:hover {
+	opacity: 1.0;
+	filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+.col-lg-4 {
+  padding: 0;
+}
+
+.footer-copyright {
+	text-align: center;
+  background-color: black;
+  color: white;
+  border: 0;
+  font-size: 50;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+.menu-images {
+  max-width: 100%;
+  height: auto;
+
+}
+
+/* CONTACT PAGE */
+.delivery-and-returns {
+  padding: 0px 10px 0px 10px;
+}
+
+.contact-details-and-form  {
+  padding: 10px 10px 10px 10px;
+  border-style: none;
+}
+
+.contact-form {
+  border-radius: 20px;
+  border-color: black;
+  border-width: 5px;
+}
+
+.contact-details-section {
+  background-color: black;
+  color: white;
+  padding: 10px 10px 10px 10px;
+}
+
+.contact-icons {
+  filter: invert(100);
+}
